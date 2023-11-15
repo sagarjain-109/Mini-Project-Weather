@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #aed1cf;
+    background-image: url(https://nordicapis.com/wp-content/uploads/6-Best-Free-and-Paid-Weather-APIs-1024x576.png);
+
+}
+.container{
+    background-color: #fff;
+    width: 400px;
+    border-radius: 12px;
+    padding: 28px;
+    height: min-content;
+}
+.search{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.search input{
+    width: 84%;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000;
+    background-color: #e6f5fb;
+    padding: 12px 16px;
+    border-radius: 14px;
+}
+.search input::placeholder{
+    color: #000;
+}
+.search button{
+    width: 46px;
+    height: 46px;
+    background-color: #e6f5fb;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.search button:hover{
+    color: #fff;
+    background-color: #ababab;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+
+}
+.details img{
+    width: 60%;
+}
+.weather-box{
+    margin-block: 20px;
+    text-align: center;
+
+}
+.weather-box .temp{
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+.weather-box .temp sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 500;
+
+}
+
+.weather-box .desc{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.weather-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.humidity, .Wind{
+    display: flex;
+    align-items: center;
+}
+
+.humidity{
+    margin-left: 20px;
+}
+.Wind{
+    margin-right: 12px;
+}
+.weather-details i{
+    font-size: 40px;
+}
+
+.weather-details .text{
+    margin-left: 8px;
+}
+.text span{
+    font-size: 23px;
+    font-weight: 700;
+}

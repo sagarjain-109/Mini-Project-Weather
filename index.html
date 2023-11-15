@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mausam Dekho</title>
+  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+<div class="container">
+        
+          <div class="header">
+              <div class="search">
+
+                <input type="text" class="input-box" placeholder="Enter Location" >
+                <button class="fa-solid fa-magnifying-glass-location" id="searchbutton"></button>
+ 
+              </div>
+          </div>
+    
+          <div class="details">
+
+                <img src="/Weather/photos/clear.png" alt="Weather" class="weather-image">
+      
+                <div class="weather-box">
+      
+                  <p class="temp">0 <sup>°C</sup></p>
+      
+                  <p class="desc">Clear Sky</p>
+
+                </div>
+
+              <div class="weather-details"> 
+
+                <div class="humidity">
+                  <i class="material-symbols-outlined">
+                       humidity_percentage
+                  </i>
+                  <div class="text">
+                    <span id="humidity">0%</span>
+                    <p>humidity</p>
+                  </div>
+                </div>
+
+                <div class="Wind">
+                
+                    <i class="fa-solid fa-wind"></i>
+                  <div class="text">
+                    <span id="wind-speed">0Km/H</span>
+                    <p>wind-speed</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+          </div>
+
+</div>
+  <script src="Script.js"></script>
+  <script src="https://kit.fontawesome.com/aa257a1a62.js" crossorigin="anonymous"></script>
+</body>
+</html>
